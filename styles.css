@@ -1,5 +1,207 @@
+
+/* ------- GENERAL -------*/
+*,
 body,
 html {
     margin: 0;
-    
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/*-------- HEADER ---------*/
+
+header {
+    background-color: #1f2937;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+header a:hover {
+    color: #4e6688;
+    transition: 0.3s;
+}
+
+header img {
+    width: 150px;
+}
+
+/*----------- HERO -----------*/
+
+.hero {
+    background-color: #1f2937;
+}
+
+.hero .container {
+    display: flex;
+    padding: 3rem 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.hero-text button {
+    background-color: #3882f6;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.hero-text button:hover {
+    background-color: #2559ad;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.hero .container img {
+    width: 40%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+/*------------ BENEFITS -----------*/
+
+.benefits {
+    padding: 3rem 0;
+}
+
+.benefits h3 {
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.benefits-div {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.benefit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 225px;
+}
+
+.benefits img {
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.benefit-card p {
+    color: #4b586b;
+    text-align: center;
+}
+
+/*------- TESTIMONIAL ------*/ 
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.testimonial .container {
+    width: 50%;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 3rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: right;
+    padding: 1rem 0 3rem 0;
+}
+
+/*-------- CALL TO ACTION -----------*/
+
+.call-to-action .container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+    box-sizing: border-box;
+    margin: 5rem auto;
+    border-radius: 20px;
+}
+
+.call-to-action-div h3 {
+    font-size: 30px;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    border: 3px solid white;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.call-to-action button:hover {
+    background-color: #2559ad;
+    transition: 0.3s;
+}
+
+/*--------- FOOTER ---------------*/ 
+
+footer {
+    background-color: #1f2937;
+    padding: 2rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+
